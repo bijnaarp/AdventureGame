@@ -10,21 +10,25 @@ based on their decisions.
 */
 
 // Add a welcome message
-console.log("Prepare yourself for an epic journey!");
+console.log("======================================");
+console.log("         The Dragon's Quest        ");
+console.log("======================================");
+console.log("\nYour quest: Defeat the dragon in the mountains!");
 
 // Get player name using readline-sync
-let playerName = readlineSync.question("What is your name, adventurer? ");
-console.log(`Welcome, ${playerName}! Your journey begins now.`);
+let playerName = readlineSync.question("\nWhat is your name, brave adventurer? ");
+console.log(`\nWelcome, ${playerName}! Your journey begins now.`);
 
 // Inventory
 let inventory = [];
 
-// Player stats
+// Game state variables
 let health = 100; // Player's health points
 let strength = 10; // Player's strength level
 let agility = 8; // Player's agility level
 let goldAmount = 100 // player's gold coins level
+let gameRunning = true; // Game loop control variable
+let currentLocation = "village"; // Starting location
 
 // Display player stats
-console.log(`Your starting stats are: 
-Health: ${health}, Strength: ${strength}, Agility: ${agility}, Gold: ${goldAmount}`);
+console.log("\nYou start with " + goldAmount + " gold coins."); 
