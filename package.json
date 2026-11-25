@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "adventuregame",
   "version": "1.0.0",
   "main": "AdventureGame.js",
@@ -13,3 +14,20 @@
     "readline-sync": "^1.4.10"
   }
 }
+=======
+    "name": "adventuregame",
+    "version": "1.0.0",
+    "main": "AdventureGame.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "readline-sync": "^1.4.10"
+    }
+  }
+  
+>>>>>>> 0720c70 (more game updates)
